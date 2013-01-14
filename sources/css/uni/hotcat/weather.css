@@ -1,0 +1,26 @@
+
+
+.tblWeather{
+
+}
+
+.tblWeather .tr:hover{
+	background:#eeeeee;
+}
+
+.tblWeather .hdr{
+	background:#0088CC;
+	color:#FFFFFF;
+	height:23px;
+}
+.tblWeather .hdr td{
+	border-bottom-width:3px;
+}
+
+.tblWeather td{
+	text-align:center;
+	vertical-align:middle;
+	padding:5px;
+	margin:0px;
+	border-bottom:1px solid #CCCCCC;
+}

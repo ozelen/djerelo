@@ -1,0 +1,3 @@
+		<script src="/js/jquery/jquery-1.4.4.min.js"></script>
+		<script src="http://localhost:12175/javascript/GpsGate.js"></script>
+		<script src="/js/mob/gps.js"></script>

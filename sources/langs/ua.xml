@@ -1,0 +1,190 @@
+<locale lang="ua">
+
+	<c id="langs">
+		<l id="ua">Українська</l>
+		<l id="ru">Російська</l>
+		<l id="en">Англійська</l>
+		<l id="de">Німецька</l>
+		<l id="fr">Французька</l>
+		<l id="pl">Польська</l>
+	</c>
+
+	<c id="lang"></c>
+	
+	<c id="standarts.from">від</c>
+	<c id="standarts.to">до</c>
+	<c id="standarts.save">Зберегти</c>
+	<c id="standarts.edit">Редагувати))</c>
+	<c id="standarts.undefined">Не визначено</c>
+	
+	<c id="hotcat.infrastructure">Місцева інфраструктура</c>
+	<c id="standarts.homepage">Головна</c>
+	<c id="standarts.adv">Реклама</c>
+	<c id="standarts.news">Новини</c>
+	<c id="standarts.news.archive">Архів новин</c>
+	<c id="standarts.papers">Статті</c>
+	<c id="standarts.papers.latest">Останні статті</c>
+	<c id="standarts.papers.sections">Статті за розділами</c>
+	<c id="standarts.map.karp">Карта Карпат</c>
+	<c id="standarts.previous">Попередні</c>
+	<c id="standarts.next">Наступні</c>
+	
+	<c id="hotcat.toplist">TOP list</c>
+	<c id="hotcat.object.pricetable">Таблиця цін</c>
+	<c id="hotcat.object.pricetable.rooms">Номери</c>
+	<c id="hotcat.object.pricetable.prices">Ціни</c>
+	<c id="hotcat.object.pricetable.seasons">Сезони</c>
+	<c id="hotcat.object.pricetable.default">Базова ціна (без врахування днів тижня та кількості осіб)</c>
+	<c id="hotcat.object.pricetable.undefined">Дані про ціни на даний період, відсутні...</c>
+	
+	<c id="hotcat.object.pricetable.periods.add">Додати період</c>
+	<c id="hotcat.object.pricetable.periods.del">Видалити період</c>
+	<c id="hotcat.object.pricetable.periods.add.dialog">Оберіть дату початку та кінця періоду</c>
+	<c id="hotcat.object.pricetable.periods.undefined">Ціновий</c>
+	
+	<c id="hotcat.object.contacts">Прямі Контакти</c>
+	<c id="hotcat.object.contacts.link">Постійне посилання</c>
+	<c id="hotcat.object.contacts.category">Категорія</c>
+	<c id="hotcat.object.contacts.location">Місцезнаходження...</c>
+	
+	<c id="hotcat.object.add">Додати новий об'єкт</c>
+	
+	
+	<c id="hotcat.object.gallery">Загальна фотогалерея</c>
+	<c id="hotcat.category.gallery">Дивитися більше фотографій</c>
+	<c id="hotcat.gallery.of-photos">фото</c>
+	<c id="hotcat.city.map">на мапі</c>
+	<c id="hotcat.city.gallery">Фотогалерея нас. пункту</c>
+	<c id="hotcat.weather">Погода</c>
+	<c id="hotcat.weather-today">Погода сьогодні</c>
+	<c id="hotcat.weather-5days">погода на 5 днів</c>
+	<c id="hotcat.categories.add.name">Ім'я категорії (якщо потрібно)</c>
+	
+	<c id="forum.header-sm">відгуки</c>
+	<c id="forum.add-comment">Додати коментар</c>
+	<c id="forum.add">Додати</c>
+	<c id="forum.cancel">Відмінити</c>
+	
+	
+	<c id="forum.fields.name">Им'я</c>
+	<c id="forum.fields.email">Электронна пошта</c>
+	<c id="forum.fields.phone">Контактний телефон</c>
+	<c id="forum.fields.header">Тема повідомлення</c>
+	<c id="forum.fields.content">Текст</c>
+	
+	<c id="forum.messages.complain">
+		<title>Поскаржитися на коментар</title>
+		<source>
+			<p>Ви можете поскаржитися на коментар, якщо знайшли в ньому неправдиву інформацію або таку що зачіпляє Ваші почуття.</p>
+			<p>В тексті повідомлення Ви можете написати причину вашої скрарги.</p>
+			<p>Ваша скарга буде розглянута модератором та не буде висвітлена в ленті повідомлень.</p>
+		</source>
+	</c>
+	<c id="forum.messages.answer">
+		<title>Відповісти на коментар</title>
+		<source>
+			<p>Пишучи коментар, дотримуйтеся будь-ласка етики спілкування. Якщо Ви не зареєстрований користувач, Ваш коментар буде додано після модерації. </p>
+			<p>Якщо бажаєте отримати повідомлення про відповіді на Ваше повідомлення, залиште свій E-mail у відповідному рядку. </p>
+		</source>
+	</c>
+	
+
+	<c id="forum.mail.answer">
+		Вітаємо, <strong><val id="username"/></strong>!<br/> 
+		<strong><val id="respondent" /></strong> надіслав(ла) вам повідомлення на сайті: <val id="domain"/>. <br/>
+		Ви писали:<br/>
+		<val id="content" />
+		<br/><br/>
+		Відповідь була така:<br/>
+		<val id="response" /><br/><br/>
+		Ви можете перейти на сайт, щоб продовжити обговорення в  
+		<link target="_blank">
+			<href>http://forums.<val id="domain"/>/ua/<val id="ownertbl"/>/<val id="ownerid"/>/<val id="postid"/>/</href>
+			<text>даній гілці</text>
+		</link>.
+		<hr/>
+		Адміністрація порталу <br/>
+		<link target="_blank">
+			<href>http://djerelo.info/</href>
+			<text>Djerelo.Info</text>
+		</link>
+	</c>
+	
+	<c id="forum.mail.approved">
+		Вітаємо, <strong><val id="username"/></strong>!<br/> 
+		Ви надісли повідомлення на сайті: <val id="domain"/>, як незареєстрований користувач. <br/>
+		Ви писали:<br/>
+		<p><val id="content" /></p>
+		<br/><br/>
+		Ваше повідомлення прийняте і викладено
+		Ви можете перейти на сайт, щоб продовжити обговорення в 
+		<link target="_blank">
+			<href>http://forums.<val id="domain"/>/ua/<val id="ownertbl"/>/<val id="ownerid"/>/</href>
+			<text>даній гілці</text>
+		</link>.
+		<hr/>
+		Адміністрація порталу <br/>
+		<link target="_blank">
+			<href>http://djerelo.info/</href>
+			<text>Djerelo.Info</text>
+		</link>
+	</c>
+
+	<c id="forum.answer">Відповісти</c>
+	<c id="forum.complain">Скаржитися</c>
+
+	<c id="forum.answers.waitmoderate">Повідомлення очікує модерації.</c>
+	<c id="forum.answers.emptymsg">Порожнє повідомлення</c>
+	<c id="forum.answers.approved">Повідомлення додано</c>
+	<c id="forum.answers.aborted">Повідомлення не додано</c>
+	<c id="forum.answers.complain.ok">Ваша скарга буде розглянута модератором</c>
+	
+	<c id="forum.answers.bad.email">Некоректний E-mail</c>
+	<c id="forum.answers.bad.phone">Некоректний телефон</c>
+	<c id="forum.answers.bad.username.exists">Користувач з таким ім'ям вже існує</c>
+	
+	<c id="forum.folders.all">Коментарі</c>
+	<c id="forum.folders.booking">Запити бронювання</c>
+	
+	
+	<c id="bookit.header">On-Line Бронювання</c>
+	<c id="bookit.text"> Тут можна </c>
+	<c id="bookit.link">Забронювати On-Line!</c>
+	
+	<c id="edit.langs.choose">Вибір мови</c>
+	<c id="edit.langs"></c>
+	<c id="edit.langs"></c>
+	
+	<c id="dow">
+		<day id="1" short="пн">понеділок</day>
+		<day id="2" short="вт">вівторок</day>
+		<day id="3" short="ср">середа</day>
+		<day id="4" short="чт">четвер</day>
+		<day id="5" short="пт">п'ятниця</day>
+		<day id="6" short="сб">субота</day>
+		<day id="7" short="нд">неділя</day>
+	</c>
+	
+	<c id="of-month">
+		<m id="01">січня</m>
+		<m id="02">лютого</m>
+		<m id="03">березня</m>
+		<m id="04">квітня</m>
+		<m id="05">травня</m>
+		<m id="06">червня</m>
+		<m id="07">липня</m>
+		<m id="08">серпня</m>
+		<m id="09">вересня</m>
+		<m id="10">жовтня</m>
+		<m id="11">листопада</m>
+		<m id="12">грудня</m>
+	</c>
+	
+	<c id="currency">
+		<cur id="uah" short="грн.">Українська Гривня</cur>
+		<cur id="usd" short="$">Долар США</cur>
+		<cur id="eur" short="€">Євро</cur>
+		<cur id="rur" short="руб.">Російський Рубль</cur>
+	</c>
+	
+</locale>

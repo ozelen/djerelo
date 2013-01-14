@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ***************************************************** */
+/* Rounded ****/
+.r1, .r2, .r3 {
+	display: block;
+	height: 1px;
+}
+
+.r3 { margin: 0 3px; }
+.r2 { margin: 0 2px; }
+.r1 { margin: 0 1px; }
+	
+	
+.r1, .r2, .r3 { /* for IE */
+	overflow: hidden; 
+	font-size:1px;
+}
+	
+.rounded-box-3 .inner-box, .rounded-box-3  b {
+	background-color: #e3f6f9;
+}
+
+.white-rounded .inner-box, .white-rounded  b {
+	background-color:#fff;
+}
+
+.rounded-yellow .inner-box, .rounded-yellow  b {
+	background-color:#FFFEDF;
+}
+
+.rounded-box-3 hr{
+	margin:0;
+	/*border:solid 1px #069;*/
+	border:0;
+	background:#B9D8E6;
+	height:1px;
+	padding:0px;
+}
+
+
+.rounded-box-main_menu .inner-box, .rounded-box-main_menu  b {
+	background-color: #fff;
+}
+
+.inner-box {
+	padding:1px 5px;
+}
+.inner-box h3{
+	margin:0px;
+	font-size:12px;
+	color:#555;
+}
+			
+/*			*/

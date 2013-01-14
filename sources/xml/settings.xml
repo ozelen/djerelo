@@ -1,0 +1,19 @@
+<settings>
+	<iface>
+		<languages default="ua">
+			<lang id="ua">Ukrainian</lang>
+			<lang id="ru">Russian</lang>
+			<lang id="en">English</lang>
+		</languages>
+		<captions>
+			<standarts>
+				<capt id="details">
+					<lng id="ua">детальніше</lng>
+					<lng id="ru">подробнее</lng>
+					<lng id="en">details</lng>
+				</capt>
+			</standarts>
+		</captions>
+		<res id=""></res>
+	</iface>
+</settings>

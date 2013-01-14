@@ -1,0 +1,35 @@
+body{
+	background: repeat-x #600  url(/img/iface/besthotels/bg.png);
+}
+
+.btn .left{
+	background:url(/img/iface/besthotels/hdr-button-left.png);
+}
+.btn .right{
+	background:url(/img/iface/besthotels/hdr-button-bg-right.png);
+}
+.btn .cont{
+	background:#8d2100 url(/img/iface/besthotels/hdr-button-bg.png) right no-repeat;
+	color:#FFF;
+}
+
+#head_left{
+	float:left; 
+	width:330px; 
+	height:64px; 
+	background:url(/img/iface/besthotels/sm-left-head.png);
+}
+
+#head_right{
+	float:right; 
+	width:182px; 
+	height:64px; 
+	background:url(/img/iface/besthotels/sm-right-head.png);
+}
+
+#head_mid{
+	margin-left:330px; 
+	margin-right:182px; 
+	height:64px; 
+	background:#8d2100;
+}

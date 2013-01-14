@@ -1,0 +1,133 @@
+<locale lang="ru">
+	<langs>
+		<l id="ua">Украинский</l>
+		<l id="ru">Русский</l>
+		<l id="en">Английский</l>
+		<l id="de">Немецкий</l>
+		<l id="fr">Французский</l>
+		<l id="pl">Польский</l>
+	</langs>
+
+	<c id="lang"></c>
+	<c id="standarts.homepage">Главная</c>
+	<c id="standarts.adv">Реклама</c>
+	<c id="standarts.news">Новости</c>
+	<c id="standarts.news.archive">Архив новостей</c>
+	<c id="standarts.papers">Статтьи</c>
+	<c id="standarts.papers.latest">Последние статьи</c>
+	<c id="standarts.papers.sections">Статьи по разделам</c>
+	<c id="standarts.map.karp">Карта Карпат</c>
+	<c id="standarts.previous">Предыдущие</c>
+	<c id="standarts.next">Следующие</c>
+
+	<c id="hotcat.toplist">TOP list</c>
+	
+	<c id="hotcat.infrastructure">Местная инфраструктура</c>
+	<c id="hotcat.object.pricetable">Таблица цен</c>
+	<c id="hotcat.object.pricetable.rooms">Номера</c>
+	<c id="hotcat.object.pricetable.prices">Цены</c>
+	<c id="hotcat.object.pricetable.seasons">Сезоны</c>
+	<c id="hotcat.object.contacts">Прямые контакты</c>
+	<c id="hotcat.object.gallery">Общая фотогалерея</c>
+	<c id="hotcat.category.gallery">Смотреть больше фотографий</c>
+	<c id="hotcat.gallery.of-photos">фото</c>
+	<c id="hotcat.city.map">на карте</c>
+	<c id="hotcat.city.gallery">Фотогалерея нас. пункта</c>
+	<c id="hotcat.weather">Погода</c>
+	<c id="hotcat.weather-today">Погода сьогодні</c>
+	<c id="hotcat.weather-5days">погода на 5 дней</c>
+
+	<c id="forum.header-sm">отзывы</c>
+	<c id="forum.add-comment">Добавить комментарий</c>
+	<c id="forum.add">Добавить</c>
+	<c id="forum.cancel">Отменить</c>
+
+	<c id="forum.fields.name">Имя</c>
+	<c id="forum.fields.email">Электронная почта</c>
+	<c id="forum.fields.phone">Контактный телефон</c>
+	<c id="forum.fields.header">Тема сообщения</c>
+	<c id="forum.fields.content">Текст</c>
+	<c id="forum.adv">Реклама</c>
+	
+	
+	<c id="forum.messages.complain">
+		<title>Пожаловаться на комментарий</title>
+		<source>
+			<p>Вы можете пожаловаться на комментарий, если нашли в нем ложную информацию или такую, которая задевает Ваши чувства.</p>
+			<p>В тексте сообщения Вы можете написать причину жалобы.</p>
+			<p>Ваша жалоба будет рассмотрена модератором и не будет показана в ленте сообщений.</p>
+		</source>
+	</c>
+	<c id="forum.messages.answer">
+		<title>Ответить на комментарий</title>
+		<source>
+			<p>Оставляя сообщение, пожалуйста, придерживайтесь этики общения. Если Вы не зарегистрированный пользователь, Ваше сообщение будет добавлено после модерации.</p>
+			<p>Если Вы желаете получать ответы на Ваши сообщения на электронную почту и не зарегистрированы на портале, напишите адрес ящика в соответствующей графе.</p>
+		</source>
+	</c>
+	
+
+	<c id="forum.mail.answer">
+		Приветствуем, <strong><val id="username"/></strong>!<br/> 
+		<strong><val id="respondent" /></strong> написал(а) вам сообщение на сайте: <val id="domain"/>. <br/>
+		Вы писали:<br/>
+		<val id="content" />
+		<br/><br/>
+		Ответ был таким:<br/>
+		<val id="response" /><br/><br/>
+		Вы можете перейти на сайт, чтобы продолжить обсуждение по 
+		<link target="_blank">
+			<href>http://forums.<val id="domain"/>/ua/<val id="ownertbl"/>/<val id="ownerid"/>/<val id="postid"/>/</href>
+			<text>данной теме</text>
+		</link>.
+		<hr/>
+		Администрация портала <br/>
+		<link target="_blank">
+			<href>http://djerelo.info/</href>
+			<text>Djerelo.Info</text>
+		</link>
+	</c>
+
+	<c id="forum.mail.approved">
+		Приветствуем, <strong><val id="username"/></strong>!<br/> 
+		Вы оставили сообщение на сайте: <val id="domain"/>, как незарегистрированный пользователь. <br/>
+		Вы писали:<br/>
+		<val id="content" />
+		<br/><br/>
+		Ваше сообщение принято и опубликовано.
+		Вы можете перейти на сайт, чтобы продолжить обсуждение в  
+		<link target="_blank">
+			<href>http://forums.<val id="domain"/>/ua/<val id="ownertbl"/>/<val id="ownerid"/>/</href>
+			<text>данной теме</text>
+		</link>.
+		<br/>
+		Администрация портала <br/>
+		<link target="_blank">
+			<href>http://djerelo.info/</href>
+			<text>Djerelo.Info</text>
+		</link>
+	</c>
+
+	<c id="forum.answer">Ответить</c>
+	<c id="forum.complain">Пожаловаться</c>
+
+	<c id="forum.answers.waitmoderate">Сообщение ожидает модерации.</c>
+	<c id="forum.answers.emptymsg">Пустое сообщение</c>
+	<c id="forum.answers.approved">Сообщение добавлено.</c>
+	<c id="forum.answers.aborted">Сообщение не добавлено!</c>
+
+
+	<c id="forum.answers.bad.email">Некорректный E-mail</c>
+	<c id="forum.answers.bad.phone">Некорректный телефон</c>
+	<c id="forum.answers.bad.username.exists">Пользователь с таким іменем уже существует</c>
+	<c id="forum.folders.all">Комментарии</c>
+	<c id="forum.folders.booking">Запросы бронирования (ответ не гарантируется!)</c>
+	
+	
+	
+	<c id="bookit.header">On-Line Бронирование</c>
+	<c id="bookit.text"> Тут можно </c>
+	<c id="bookit.link">Забронировать On-Line!</c>
+	
+	<c id="edit.langs.choose">Выбор языка</c>
+</locale>

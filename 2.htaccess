@@ -1,0 +1,28 @@
+AddDefaultCharset utf-8
+Options Includes +ExecCGI
+
+AddType text/x-server-parsed-html .html
+AddType application/x-httpd-php .php .html .phtml
+
+Options +FollowSymlinks
+
+php_value error_reporting 7
+#Action libhandler "/index.php?"
+AddHandler libhandler .html .htm
+
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(^(img\/|swf\/|css\/|js\/).*)$ index.php?&sub=$1 [L]
+
+#RewriteRule ^img\/(.*)$ sources/img/$1
+#RewriteRule ^swf\/(.*)$ sources/swf/$1
+#RewriteRule ^css\/(.*)$ sources/css/$1
+#RewriteRule ^js\/(.*)$ sources/js/$1
+
+

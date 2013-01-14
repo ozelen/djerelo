@@ -1,0 +1,11 @@
+<document id="SP-1">
+		<text>
+			<insert-field id="client-name" caption="Платник" type="varchar"/>
+			<insert-field id="client-address" caption="Місце проживання" type="varchar"/>
+			
+			<insert-field id="sum" caption="Сума" type="int"/>
+			<insert-field id="sum-words" caption="Сума словами" type="varchar"/>
+			<insert-field id="service-code" caption="Сервіс код" type="int"/>
+			<insert-field id="service-details" caption="Яка послуга?" type="text"/>
+		</text>
+</document>

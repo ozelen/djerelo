@@ -1,0 +1,59 @@
+<locale lang="ua">
+
+	<langs>
+		<l id="ua">Ukrainian</l>
+		<l id="ru">Russian</l>
+		<l id="en">English</l>
+		<l id="de">German</l>
+		<l id="fr">French</l>
+		<l id="pl">Poland</l>
+	</langs>
+
+	<c id="lang"></c>
+	<c id="hotcat.infrastructure">Infrastructure</c>
+	<c id="standarts.homepage">Home</c>
+	<c id="standarts.adv">Advertising</c>
+	<c id="standarts.news">News</c>
+	<c id="standarts.news.archive">News Archive</c>
+	<c id="standarts.papers">Articles</c>
+	<c id="standarts.papers.latest">Latest Articles</c>
+	<c id="standarts.papers.sections">Articles by Sections</c>
+	<c id="standarts.map.karp">Carpathian Map</c>
+	
+	<c id="hotcat.toplist">TOP list</c>
+	<c id="hotcat.object.pricetable">Price Table</c>
+	<c id="hotcat.object.pricetable.rooms">Rooms</c>
+	<c id="hotcat.object.pricetable.prices">Prices</c>
+	<c id="hotcat.object.pricetable.seasons">Seasons</c>
+	<c id="hotcat.object.contacts">Contacts</c>
+	<c id="hotcat.object.gallery">Main Gallery</c>
+	<c id="hotcat.category.gallery">More Pictures</c>
+	<c id="hotcat.gallery.of-photos">pics</c>
+	<c id="hotcat.city.map">on a map</c>
+	<c id="hotcat.city.gallery">Settlement Gallery</c>
+	<c id="hotcat.weather">Weather</c>
+	<c id="hotcat.weather-today">Weather today</c>
+	<c id="hotcat.weather-5days">weather for a five days</c>
+	
+	<c id="forum.header-sm">comments</c>
+	<c id="forum.add-comment">Add a Comment</c>
+	<c id="forum.add">Add</c>
+	<c id="forum.cancel">Cancel</c>
+	
+	
+	<c id="forum.fields.name">Name</c>
+	<c id="forum.fields.email">E-mail</c>
+	<c id="forum.fields.phone">Phone</c>
+	<c id="forum.fields.header">Header</c>
+	<c id="forum.fields.content">Content</c>
+	
+	
+	<c id="bookit.header">Book It!</c>
+	<c id="bookit.text"> Here you can </c>
+	<c id="bookit.link">Book On-Line!</c>
+	
+	<c id="edit.langs.choose">Choose Language</c>
+	<c id="edit.langs"></c>
+	<c id="edit.langs"></c>
+	
+</locale>

@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+.table_region{
+	padding:0px;
+	margin:0px;
+}
+
+.table_region ul{
+	list-style:none;
+	margin:0px;
+	padding:5px 0px;
+	/*border:1px solid #ccc;*/
+}
+
+.table_region li{
+	margin-bottom:0.2em;
+}
+
+
+.objMenuTable{
+	
+}
+
+.objMenuTable ul{
+	list-style:none;
+}
+
+.categories .cont a:hover{
+	color:#FF0;
+}
+
+
+.categories h3{
+	font-size: 20px; 
+	color:#3274cd;
+	font-weight:normal;
+	margin:0;
+}
+
+.categories .price.big{
+	font-size: 30px; 
+	color:#c95127;
+	text-align:center;
+	height:30px;
+	line-height: 100%
+}
+
+.categories li{
+	
+	/*line-height:120%;*/
+	margin-bottom:0.5em;
+}
+
+.categories.closed .details{
+	display:none;	
+}
+.categories.closed{
+	cursor:pointer;
+}
+
+.price_table{
+	width:100%;
+	border-bottom:1px solid #09c;
+	border-right:1px solid #09c;
+	border-collapse:collapse;
+}
+
+.price_table td{
+	border-top:1px solid #09c;
+	border-left:1px solid #09c;
+	margin:0px;
+	padding:3px;
+}
+
+.price_table th{
+	font-size:12px;
+	color:#fff;
+	background:#09C;
+}
+
+table.pricetable{
+	border-collapse:collapse;
+}
+
+table.pricetable{
+	border-bottom:1px #CCC solid;
+	border-left:1px #CCC solid;
+}
+
+table.pricetable tr.edit td{
+	border-top: none;
+}
+
+table.pricetable td{
+	border-top:1px #CCC solid;
+	border-right:1px #CCC solid;
+}
+
+table.pricetable td.price{
+	vertical-align:middle;
+	text-align:center;
+	padding:3px;
+}
+table.pricetable td.dow{
+	width:10%;
+	vertical-align:middle;
+	text-align:center;
+}
+
+td.dow.d6, td.dow.d7{
+	color:#F00;
+}
+
+table.pricetable td.leftcol{
+	vertical-align:middle;
+	text-align:center;
+}
+.dropdownperiods{
+	width:85%;
+}
+
+.objlist{
+	
+}
+
+.objlist .element{
+	/*
+	width:48%; 
+	float:left; 
+	*/
+	margin-bottom:5px;
+	padding:5px 5px 10px 5px
+}
+
+.objlist .inner ul{
+/*	list-style:none;*/
+	margin:0;
+	padding:0.3em 20px;
+}
+.objlist .inner li{
+	margin: 0.2em 0;
+	padding:0;
+}
+
+.objlist .element.top_true{
+	width:100%;
+}
+
+.objlist .name a{
+	font-size:1.4em
+}
+
+.objlist .price{
+	font-size:30px;
+	float:right;
+	color:red;
+	position:relative;
+	/*margin-top:-20px;*/
+}
+
+.objlist .path{
+	margin:3px;
+}
+
+.objlist .path, .objlist .path a{
+	font-size: 9px;
+}
+
+.objlist .img{
+	width:150px; 
+	height:100px;
+	margin-right:10px;
+	margin-bottom:10px;
+	background-repeat:no-repeat;
+}
+
+
+.winButton.price td{
+	text-align: center;
+	vertical-align: middle;
+}

@@ -1,0 +1,6 @@
+--
+<div id="vk_like"></div>
+<script type="text/javascript">
+//$('#vk_like').html('...');
+VK.Widgets.Like("vk_like", {type: "button", pageTitle: 'test, test', page_id: 'info.djerelo.object.123'});
+</script>

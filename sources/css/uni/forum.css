@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.forum .msg{
+	padding:10px 25px; 
+	border-bottom:1px solid #eee;
+}
+
+.forum .content{
+	line-height:150%;
+}
+
+.forum .footer{
+	padding-top:10px; font-size:10px
+}
+
+.forum .footer .date{
+	color:#777;
+}
+
+.forum .footer span{
+	margin-right: 1em
+}
+
+.forum a{
+	color:#39F;
+}

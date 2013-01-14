@@ -1,0 +1,339 @@
+html,body,td{
+	margin:0;
+	padding:0;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+hr, h1, h2, h3{
+	clear:both;
+	text-align:left;
+}
+
+body{
+	background:url(/img/iface/skiworld/bg.png) repeat-x #276bc9;
+}
+
+div{
+	
+}
+
+td{
+	vertical-align:top;
+}
+
+img{
+	border: none;
+}
+
+hr{
+	border:none;
+	height:2px;
+	background:#ccc;
+}
+
+
+.attention-box .inner-box, .attention-box  b{
+	background:#FEF183;
+}
+
+
+#navigationString{
+	margin:5px 0
+}
+
+
+#navigationString .inner-box, #navigationString  b {
+	background:#B7F7FF;
+}
+
+
+#navigationString {
+      color: #ccc;
+      padding: 3px;
+      margin-bottom: 25px;
+}
+
+#navigationString ul {
+      margin-left: 0;
+      padding-left: 0;
+      display: inline;
+      border: none;
+} 
+
+#navigationString ul li {
+      margin-left: 0;
+      padding-left: 20px;
+      border: none;
+	  list-style:url(/img/icons/forward.gif);
+      display: inline;
+}
+
+
+/* MAIN PAGE */
+
+#white-zone{
+	background-color:#fff;
+	padding:20px;
+}
+
+#container div{
+	text-align:left;
+}
+
+div#header{
+	position:relative;
+	height:64px;
+}
+div#wrapper{
+	float:left;
+	width:100%
+}
+div#content{
+/*	margin: 0 322px 0 330px;*/
+/*	padding-left:2px;*/
+	padding-right:5px;
+}
+div#navigation{
+	float:left;
+	width:330px;
+	margin-left:-100%;
+	/*background:#B9CAFF*/
+}
+div#extra{
+	float:left;
+	width:300px;
+	margin-left:-300px;
+	/*background:#FF8539*/
+}
+div#footer{
+	clear:both;
+	width:100%; 
+}
+#container{
+	background:#fff;
+	padding:0 3px;
+	width:960px;
+}
+/* ***************************************************** */
+
+
+/* ***************************************************** */
+/* SUBPAGE */
+
+div#header_sub{
+	position:relative;
+	height:105px;
+}
+
+div#content_sub{
+	margin: 0 322px 0 300px;
+	padding: 0 5px;
+	padding-left:2px;
+}
+div#navigation_sub{
+	float:left;
+	width:300px;
+	margin-left:-100%;
+	/*background:#B9CAFF*/
+}
+
+div#extra_sub{
+	float:left;
+	width:320px;
+	margin-left:-320px;
+	/*background:#FF8539*/
+}
+/* ***************************************************** */
+
+div#navigation ul, div#navigation_sub ul{
+	padding:0 10px;
+	list-style:none;
+}
+div#navigation li, div#navigation_sub li{
+	margin-bottom:0.5em
+}
+/* ***************************************************** */
+/* Header */
+#head_left{
+	float:left; 
+	width:330px; 
+	height:64px; 
+	background:url(/img/iface/skiworld/sm-left-head.png);
+}
+
+#head_right{
+	float:right; 
+	width:182px; 
+	height:64px; 
+	background:url(/img/iface/skiworld/sm-right-head.png);
+}
+
+#head_mid{
+	margin-left:330px; 
+	margin-right:182px; 
+	height:64px; 
+	background:#0d2475;
+}
+/* ***************************************************** */
+
+#logo{
+	width:203px; 
+	height:86px; 
+	background:url(/img/iface/skiworld/logo.png) no-repeat; 
+	margin:8px;
+	display:none;
+}
+
+.mainTextArea p{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;	
+	padding: 0 0 1em 0;
+}
+
+.mainTextArea li{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.submenu li{
+	margin:0.5em 0;
+/*	font-size:1.3em;*/
+}
+
+.mainTextArea h1{
+	font-size:2.1em;
+	color:#333;
+	padding:0.1em 0 0.1em 0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	line-height:1.0em;
+	font-weight:normal;
+	margin:0;
+	background-position:right bottom;
+	background-repeat:no-repeat;
+}
+
+
+.mainTextArea{
+	/*font-size:1.3em;
+	line-height:1.2em;*/
+	padding:0px 5px;
+}
+
+
+h2, h3{
+	color:#333;
+	/*padding:0.3em 0 0.2em 0;*/
+	/*margin:0.5em 0 0.1em 0;*/
+	
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	
+	background-position:right bottom;
+	background-repeat:no-repeat;
+}
+
+
+h2{font-size:20px;}
+
+h3{font-size:16px;}
+
+p{
+	padding: 0 0 1em 0;
+}
+
+.loadProgress{
+	border:1px #ccc solid; background:url(/img/iface/standarts/loading3.gif) #fff; height:35px; width:35px; position:absolute; z-index:10
+}
+
+/* *** / Objects  *** */
+.pagesplit{
+	float:left;
+	border: solid 1px #ccc;
+	padding:5px 10px;
+	margin:2px;
+}
+
+
+.sl1 a{
+	color:#999;
+	text-decoration:none
+}
+.sl1 a:hover{
+	text-decoration:underline;
+}
+
+
+.zebra .odd{
+	background:#eee;
+}
+
+.zebra td{
+	padding:3px;
+}
+
+.ajax_loader, .ajax_error{
+	
+	display:none;
+	position: absolute;
+	
+	background:#ccc;
+	color:white;
+}
+
+.ui-autocomplete-loading { background: white url('/img/loading_16x16.gif') right center no-repeat; }
+
+.siteiconstat, .siteiconstat0{display:none}
+
+
+.widget-header h1, .widget-header h2, .widget-header h3{
+	font-size:14px;
+	margin:0;
+	color:#057;
+	/*font-weight:normal;*/
+}
+
+.widget-header{
+	padding:2px 5px; 
+	margin-bottom:2px;
+	font-size:14;
+	color:#668;
+	background-color:#e3f6f9;
+	font-weight:normal;
+}
+
+.buttonbar{
+	clear:both;
+}
+
+.titext{
+	margin-top:30px;
+	margin-bottom:20px;
+}
+
+table.rating td{
+	padding-right: 5px;
+	border-top: white solid 1px;
+}
+
+table.rating td.value{
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.rating tr{
+
+}
+
+.table_odd{
+	background: #DEEBF7 url(images/ui-bg_highlight-soft_100_deebf7_1x100.png) 50% 50% repeat-x;
+}
+
+#nzSearchForm label{
+	font-size:10px;
+}
+
+.mainPageMarkupTable{
+	border-spacing:0;
+	border-collapse:collapse;
+}/*cellspacing=0*/

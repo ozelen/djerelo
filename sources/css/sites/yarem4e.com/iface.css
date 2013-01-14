@@ -1,0 +1,35 @@
+body{
+	background: repeat-x #2a5362/*  url(/img/iface/yarem4e/bg.png);*/
+}
+
+.btn .left{
+	background:url(/img/iface/yarem4e/hdr-button-left.png);
+}
+.btn .right{
+	background:url(/img/iface/yarem4e/hdr-button-bg-right.png);
+}
+.btn .cont{
+	background:#339966 url(/img/iface/yarem4e/hdr-button-bg.png) right no-repeat;
+	color:#FFF;
+}
+
+#head_left{
+	float:left; 
+	width:330px; 
+	height:64px; 
+	background:url(/img/iface/yarem4e/sm-left-head.png);
+}
+
+#head_right{
+	float:right; 
+	width:182px; 
+	height:64px; 
+	background:url(/img/iface/yarem4e/sm-right-head.png);
+}
+
+#head_mid{
+	margin-left:330px; 
+	margin-right:182px; 
+	height:64px; 
+	background:#25de81;
+}

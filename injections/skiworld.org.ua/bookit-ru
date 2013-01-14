@@ -1,0 +1,18 @@
+<form action="#" class="nz-search">
+	<div><input type="button" onclick="generateLinkToSearch(); pageTracker._trackEvent('', '29.12.2011-02.01.2012')" value="Найти" class="nz-btn-search"></div>
+	<div class="nz-search-item1">
+		<input type="text" id="targetName" class="nz-text" value="" autocomplete="off">
+		<input type="hidden" id="targetCode" value="">
+		<input type="hidden" id="searchValueType" value="">
+		<input type="hidden" id="searchObjectCount" value="0">
+		&nbsp;&nbsp;с&nbsp;&nbsp;
+					<p>Введите город, регион<br> или название отеля</p>
+			</div>
+	<div class="nz-search-item2">
+        <input class="nz-date hasDatepicker" value="29.12.2011" type="text" name="StartDate" id="StartDate" readonly="readonly"><img class="ui-datepicker-trigger" src="/images/bg_calendar.png" alt="..." title="...">
+		<span class="nz-text-date">до</span>
+        <input class="nz-date hasDatepicker" value="02.01.2012" type="text" name="DueDate" id="DueDate" readonly="readonly"><img class="ui-datepicker-trigger" src="/images/bg_calendar.png" alt="..." title="...">
+		<br><br>
+		<span><input type="checkbox" id="isFree">&nbsp;<label for="isFree">Показать только свободные</label></span>&nbsp;&nbsp;&nbsp;
+		<a href="javascript:clearDates();">Очистить даты</a>	</div>
+</form>

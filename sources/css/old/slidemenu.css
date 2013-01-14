@@ -1,0 +1,55 @@
+* { margin: 0; padding: 0; }
+
+body, div { font-family:Arial, Helvetica, sans-serif}
+body { margin: 0; padding: 0; font-size: 12px; color: #333 }
+
+
+.basic li { list-style-type: none; }
+
+.basic  {
+	width: 330px;
+	font-family: verdana;
+}
+
+
+
+.basic a.header {
+	cursor:pointer;
+	display:block;
+	margin-top: 0;
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	background-image: url("AccordionTab0.gif");
+}
+
+.basic div.btn a:hover {
+	color:#FF0;
+}
+
+.basic div.selected a{
+	color:#ff0;
+}
+
+/*  hotel list */
+
+.hotel_list .header{
+	background:#CCC;
+	margin-bottom:2px;
+	cursor:pointer;
+	padding:2px;
+	background:url(/img/iface/skiworld/light_button.png);
+	color: #003;
+}
+
+.hotel_list .content{
+	margin-bottom:5px;
+}
+/* /hotel list */
+
+@media print {
+	.basic div, #navigation ul, #list2 dd, #list3 div{
+		display: block!important;
+		height: auto!important
+	}
+}

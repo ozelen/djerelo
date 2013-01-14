@@ -1,0 +1,58 @@
+AddDefaultCharset utf-8
+Options Includes +ExecCGI
+
+AddType text/x-server-parsed-html .html
+AddType application/x-httpd-php .php .html .phtml
+
+Options +FollowSymlinks
+RewriteEngine on
+
+#Redirect 301 
+#/truskavetz/infrastructure/365/
+
+php_value error_reporting 7
+
+
+#Action libhandler "/index.php?"
+AddHandler libhandler .html .htm
+
+# remove neibour slashes
+#RewriteRule ^(.*)$ index.php?lang=ua&sub=$1
+
+
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+
+# d񦲱ᷨ 嬿 騮Ⱡ禭駬 򳩫槠柪avascript
+RewriteRule ^prg/(.*)$ program/$1 [L]
+RewriteRule ^img/(.*)$ sources/img/$1 [L]
+RewriteRule ^swf/(.*)$ sources/swf/$1 [L]
+RewriteRule ^css/(.*)$ sources/css/$1 [L]
+RewriteRule ^js/(.*)$ sources/js/$1 [L]
+
+# hacks
+RewriteRule truskavetz truskavets
+#/hacks
+
+
+# ū ᬼ 򳱠
+RewriteRule ^$ index.php?lang=$1
+RewriteRule ^(ua|ru|en)$ index.php?lang=$1 [L]
+RewriteRule ^(ua|ru|en)/$ index.php?lang=$1 [L]
+
+# а棰ấ 椮 𐴲桢 𐡰᭥󱹍
+# (!) ﰰ楥퀥󲽠ࡪ﮶㋊
+
+RewriteRule ^(en|ua|ru|de|pl|ro|fr|by|cz)/(.*)$ index.php?lang=$1&sub=$2 [L]
+
+RewriteRule ^([a-zA-Z0-9\-_\/]+)$ index.php?sub=$1 [L]
+
+
+
+
+
+
+
+
